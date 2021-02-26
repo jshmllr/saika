@@ -39,24 +39,24 @@ new Saika({
   ],
   posts: [
     {
-      title: 'In-Depth Wiki',
+      title: 'Introduction',
       children: [
         {
-          title: 'Introduction',
+          title: 'What is InDepth',
           link: '/'
         },
         {
-          title: 'Markdown Features',
-          link: '/guide/markdown-features'
+          title: 'How to use this Wiki',
+          link: '/what-is-indepth/how-to-use'
         },
         {
-          title: 'Use Vue in Markdown',
-          link: '/guide/use-vue-in-markdown'
+          title: 'FAQ',
+          link: '/what-is-indepth/faq'
         }
       ]
     },
     {
-      title: 'Reference',
+      title: 'Category',
       children: [
         {
           title: 'Options',
