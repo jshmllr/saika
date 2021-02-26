@@ -6,10 +6,10 @@ import { copyCode } from 'saika-code-block-buttons'
 
 new Saika({
   target: 'app',
-  title: 'Saika',
+  title: 'In-Depth Wiki',
   highlight: ['bash', 'typescript', 'json', 'markdown'],
   editLink: {
-    baseUrl: 'https://github.com/evillt/saika/tree/master/website/public',
+    baseUrl: 'https://github.com/jshmllr/saika/tree/master/website/public',
     text: 'Edit this page on GitHub'
   },
   postMixins: [
@@ -34,29 +34,29 @@ new Saika({
   nav: [
     {
       title: 'GitHub',
-      link: 'https://github.com/evillt/saika'
+      link: 'https://github.com/jshmllr/saika'
     }
   ],
   posts: [
     {
-      title: 'Guide',
+      title: 'Introduction',
       children: [
         {
-          title: 'Introduction',
+          title: 'What is InDepth',
           link: '/'
         },
         {
-          title: 'Markdown Features',
-          link: '/guide/markdown-features'
+          title: 'How to use this Wiki',
+          link: '/what-is-indepth/how-to-use'
         },
         {
-          title: 'Use Vue in Markdown',
-          link: '/guide/use-vue-in-markdown'
+          title: 'FAQ',
+          link: '/what-is-indepth/faq'
         }
       ]
     },
     {
-      title: 'Reference',
+      title: 'Category',
       children: [
         {
           title: 'Options',
